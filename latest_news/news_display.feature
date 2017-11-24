@@ -1,7 +1,7 @@
 Feature: Latest News - elements
   # https://manchestercity.atlassian.net/browse/WE-755
   Scenario Outline: Each item will display properly
-    When I am on the "MCFC Home Page"
+    When I visit the "MCFC Home" page
     And I am viewing the "Latest News" "section"
     Then I can see an "<element>"
 

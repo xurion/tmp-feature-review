@@ -6,7 +6,7 @@ Feature: Fixtures & Results - Switch content
     Then I can see the "Updated Match Data"
 
     Examples:
-      | team     |
+      | team    |
       | Men     |
       | Women   |
       | EDS     |
